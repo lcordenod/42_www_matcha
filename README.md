@@ -5,6 +5,8 @@ Creating a dating site using React, Node JS and MySQL
 
 Objective of this project is to create a complete dating website that allows users to search, discover profiles according to their preferences and geolocation, show them some love with real-time likes, notifications and chat if both profiles match.
 
+Team of 2: Raphaël ([GitHub](https://github.com/M4sterCiel)) and I.
+
 ### Stack
 
 * Node JS (Express)
@@ -12,9 +14,34 @@ Objective of this project is to create a complete dating website that allows use
 * Materialize CSS and Material UI Front libraries
 * Redux JS
 * MySQL
+* JSON web tokens
 * Axios for API requests
 * Websockets (socket.io) for real-time
 * Google Maps/Geolocator APIs for geolocation
+
+### Features
+
+My Matcha project handles:
+* DB creation PHP script
+* User creation and authentication using token
+* Camera and pictures upload
+* Complete user profile page with gender, bio, location, interests details...
+* User profile edition (password, details, preferences)
+* Profiles discovery based on matching algorithm and user preferences
+* Popularity score calculated for each user based on interactions with other profiles
+* Profiles search with filters (gender, interests, age and location ranges...) with immediate update
+* Real-time notifications for likes, profile views and matches
+* Real-time chat if two profiles match
+* User ability to block or report another profile
+* Email notifications for authentication and password reset (with auth key)
+* Change and reset of email/forgot password with ID validation
+* Profile, pictures deletion and user DB cleanup
+* Responsive design from mobile to desktop/tablet
+* User input and upload checks (front/backend)
+* Password hashing (Whirlpool)
+* HTML/Javascript/SQL injections prevention
+
+Discover more details below.
 
 ## Run project
 
