@@ -1,5 +1,20 @@
 # 42_www_matcha
-Creating a dating site using React, Node JS and MongoDB
+Creating a dating site using React, Node JS and MySQL
+
+## Intro
+
+Objective of this project is to create a complete dating website that allows users to search, discover profiles according to their preferences and geolocation, show them some love with real-time likes, notifications and chat if both profiles match.
+
+### Stack
+
+* Node JS (Express)
+* React JS
+* Materialize CSS and Material UI Front libraries
+* Redux JS
+* MySQL
+* Axios for API requests
+* Websockets (socket.io) for real-time
+* Google Maps/Geolocator APIs for geolocation
 
 ## Run project
 
