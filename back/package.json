@@ -1,0 +1,39 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "Creating a dating site using React, Node JS and Mysql",
+  "main": "./routes/server.js",
+  "scripts": {
+    "start": "node ./routes/server.js",
+    "server": "nodemon ./routes/server.js",
+    "front": "cd ../front && npm start",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run front\""
+  },
+  "author": "ralleman, lcordeno",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.0",
+    "express-router": "0.0.1",
+    "guid": "0.0.12",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mustache": "^2.2.1",
+    "mysql": "^2.17.1",
+    "node-fetch": "^2.6.0",
+    "node-geocoder": "^3.23.0",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.19.0",
+    "password-hash": "^1.2.2",
+    "querystring": "^0.2.0",
+    "random-int": "^2.0.0",
+    "request": "^2.69.0",
+    "socket.io": "^2.2.0",
+    "unique-random-array": "^2.0.0",
+    "unsplash-js": "^5.0.0"
+  },
+  "devDependencies": {}
+}
