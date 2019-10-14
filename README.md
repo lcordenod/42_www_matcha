@@ -22,7 +22,7 @@ Team of 2: Raphaël ([GitHub](https://github.com/M4sterCiel)) and I.
 ### Features
 
 My Matcha project handles:
-* DB creation PHP script
+* DB creation script
 * User creation and authentication using token
 * Camera and pictures upload
 * Complete user profile page with gender, bio, location, interests details...
