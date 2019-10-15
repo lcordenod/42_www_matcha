@@ -134,7 +134,7 @@ User is able to see the profiles he visited, liked and blocked in order to easil
 
 ### Display list
 
-Once the user has completed his profile, he will have access to the profiles discovery feature.
+Once the user has completed his profile, he will have access to the profiles discovery feature and be able to filter these results.
 
 ![Profiles discovery](https://user-images.githubusercontent.com/45239771/66847856-5ef6fb00-ef74-11e9-8838-ad62ea2995e1.png)
 <p align=center><i>Profiles discovery</i></p>
@@ -150,7 +150,7 @@ Also the user is able to like a profile directly from the card, and the button w
 
 In order to help users find love, Matcha offers a matching algorithm, that's what our discovery feature is based on.
 
-The matching algorithm works by pondering user preferences and user information to retrieve other profiles that are interested in the same thing, that are close to the user and that have a common orientation. Basically, we created a compatibility rating to suggested profiles based on different criteria ordered by importance:
+The matching algorithm works by pondering user preferences and user information to retrieve other profiles that are interested in the same things, that are close to the user and that have a common orientation. Basically, we created a compatibility rating to suggested profiles based on different criteria ordered by importance:
 * Sexual orientation
 * Location
 * Interests in common
@@ -159,6 +159,10 @@ The matching algorithm works by pondering user preferences and user information 
 This allows us to return a list of profiles that user might be interested in, ordered by level of compatibility.
 
 ## Profiles search
+
+Just like the profiles discovery feature, the search will return a list of user and give user the ability to do a global search over the profiles registered on Matcha app. The search page is very similar to what can be found on the profiles discovery one but he has access to the full list of profiles.
+
+![Profiles search](https://user-images.githubusercontent.com/45239771/66851379-e7789a00-ef7a-11e9-805d-f26cc3c3e6d2.png><i>Profiles search</i></p>
 
 ## User interactions
 
