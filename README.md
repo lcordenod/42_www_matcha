@@ -162,7 +162,7 @@ This allows us to return a list of profiles that user might be interested in, or
 
 Just like the profiles discovery feature, the search will return a list of user and give user the ability to do a global search over the profiles registered on Matcha app. The search page is very similar to what can be found on the profiles discovery one but he has access to the full list of profiles.
 
-![Profiles search](https://user-images.githubusercontent.com/45239771/66851379-e7789a00-ef7a-11e9-805d-f26cc3c3e6d2.png><i>Profiles search</i></p>
+![Profiles search](https://user-images.githubusercontent.com/45239771/66851379-e7789a00-ef7a-11e9-805d-f26cc3c3e6d2.png)><i>Profiles search</i></p>
 
 ## User interactions
 
