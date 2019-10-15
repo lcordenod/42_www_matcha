@@ -130,10 +130,19 @@ User is able to see the profiles he visited, liked and blocked in order to easil
 
 ## Profiles discovery
 
+### Display list
+
 Once the user has completed his profile, he will have access to the profiles discovery feature.
 
 ![Profiles discovery](https://user-images.githubusercontent.com/45239771/66847856-5ef6fb00-ef74-11e9-8838-ad62ea2995e1.png)
 <p align=center><i>Profiles discovery</i></p>
+
+Each profile suggested will have a user card summarizing the personnality of the person. User can click on the "3 dots" button to get more information such as the bio and full list of interest tags or go on the profile to see the "big picture".
+
+![User cards](https://user-images.githubusercontent.com/45239771/66848928-3ec83b80-ef76-11e9-98a5-79f7eaf8c923.png)
+<p align=center><i>User cards</i></p>
+
+Also user is able to like a profile directly from the card, and the button will change of appearance.
 
 ### Matching algorithm
 
