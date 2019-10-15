@@ -58,6 +58,19 @@ Password will be hashed (sha512) with a salt for 5 iterations first before being
 ![User creation screen with input](https://user-images.githubusercontent.com/45239771/66834597-3e23ab00-ef5e-11e9-8e8c-51e5ca62706e.png)
 <p align=center><i>User creation screen with input</i></p>
 
+Before saving user, several checks will also be runned in the background, including:
+* Verifying if user already exists
+* Verifying if email is already used
+* Verifying (as said earlier) if input is in the right format required
+
+Once user is created, he will be receive an email to verify his account, while account isn't validated, he wont be able to access the app (a message will be displayed to inform him).
+
+### Forgot and change of password
+
+If user has forgotten his password, he will be able to retrieve using his email, a password reset link will be sent to his email address entered.
+
+The reset of password link will have a unique ID, which will be the latest link sent, others will be made deprecated. This provides security to prevent intruders from resetting someone else password.
+
 ## Run project
 
 ### Environment setup
