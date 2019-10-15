@@ -43,6 +43,18 @@ My Matcha project handles:
 
 Discover more details below.
 
+## User account
+
+### User creation and authentication
+
+User input has been secured on front and back end with immediate feedback for front end input validation. Also password security has been taken seriously with multiple layers of complexity validated on the go, including:
+* A lowercase letter
+* A uppercase letter
+* A number
+* A minimum of 8 characters
+
+Password will be hashed (sha512) first with a salt before being saved in the DB.
+
 ## Run project
 
 ### Environment setup
