@@ -121,6 +121,13 @@ User is able to modify his email and password from the account settings modal, p
 
 User is able to delete his account as well, this will remove him from database and other users no longer will be available to match with him/her.
 
+### Profiles management
+
+User is able to see the profiles he visited, liked and blocked in order to easily retrieve them.
+
+![Profiles management](https://user-images.githubusercontent.com/45239771/66847515-cb252f00-ef73-11e9-8ba7-6e5d5b64b159.png)
+<p align=center><i>Profiles management</i></p>
+
 ## Run project
 
 ### Environment setup
