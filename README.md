@@ -71,6 +71,41 @@ If user has forgotten his password, he will be able to retrieve using his email,
 
 The reset of password link will have a unique ID, which will be the latest link sent, others will be made deprecated. This provides security to prevent intruders from resetting someone else password.
 
+### User profile
+
+#### Complete profile
+
+If user hasn't completed his profile, he will be invited to do so in order to access profiles discovery and be able to find the one.
+
+#### Information edition
+
+As said above, he will be invited to complete his profile from the discovery view, but he can also edit his profile at any time to change information such as:
+* Gender
+* Sexual Orientation
+* Details like Firstname, Lastname, Bio and Birthdate
+* City (list or geolocation)
+* Interests tags
+
+![User information edition](https://user-images.githubusercontent.com/45239771/66844629-e8a3ca00-ef6e-11e9-900d-68386108525d.png)
+<p align=center><i>User information edition</i></p>
+
+#### Pictures upload
+
+User is able to upload up to 5 pictures, he needs at least one to be able to match with someone.
+
+![User information edition](https://user-images.githubusercontent.com/45239771/66844775-2dc7fc00-ef6f-11e9-9b1f-60e732028d6a.png)
+<p align=center><i>User information edition</i></p>
+
+##### Profile picture
+
+User will necessarily have a profile picture when uploading pictures, the first picture uploaded will become the default profile one. He will also be able to edit it by clicking on the make default picture above the picture he wants to.
+
+
+Or even delete his account (with a confirmation using his password) and manage his notifications (new comments on his pictures for example).
+
+![User account](https://user-images.githubusercontent.com/45239771/62535287-4cad6200-b84b-11e9-8b50-f8c8691b5c0d.png)
+<p align=center><i>User account</i></p>
+
 ## Run project
 
 ### Environment setup
