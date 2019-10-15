@@ -73,6 +73,8 @@ The reset of password link will have a unique ID, which will be the latest link 
 
 ### User profile
 
+User profiles are accessible via the `/user/username` url, so this means that each user has his own profile link and can share it. Also if user is on his own profile, he will be able to edit it, while if he is on someone else profile, he will be able to block or report that user.
+
 #### Complete profile
 
 If user hasn't completed his profile, he will be invited to do so in order to access profiles discovery and be able to find the one.
@@ -137,15 +139,38 @@ Once the user has completed his profile, he will have access to the profiles dis
 ![Profiles discovery](https://user-images.githubusercontent.com/45239771/66847856-5ef6fb00-ef74-11e9-8838-ad62ea2995e1.png)
 <p align=center><i>Profiles discovery</i></p>
 
-Each profile suggested will have a user card summarizing the personnality of the person. User can click on the "3 dots" button to get more information such as the bio and full list of interest tags or go on the profile to see the "big picture".
+Each profile suggested will have a user card summarizing the personnality of the profile. User can click on the "3 dots" button to get more information such as the bio and full list of interest tags or go on the profile to see the "big picture".
 
 ![User cards](https://user-images.githubusercontent.com/45239771/66848928-3ec83b80-ef76-11e9-98a5-79f7eaf8c923.png)
 <p align=center><i>User cards</i></p>
 
-Also user is able to like a profile directly from the card, and the button will change of appearance.
+Also the user is able to like a profile directly from the card, and the button will change of appearance.
 
 ### Matching algorithm
 
+In order to help users find love, Matcha offers a matching algorithm, that's what our discovery feature is based on.
+
+The matching algorithm works by pondering user preferences and user information to retrieve other profiles that are interested in the same thing, that are close to the user and that have a common orientation. Basically, we created a compatibility rating to suggested profiles based on different criteria ordered by importance:
+* Sexual orientation
+* Location
+* Interests in common
+* Popularity score
+
+This allows us to return a list of profiles that user might be interested in, ordered by level of compatibility.
+
+## Profiles search
+
+## User interactions
+
+### Popularity score
+
+Every time user enters in interaction with someone else, this will affect his popularity score. We base it off several actions that have a positive impact like:
+* User profile is visited by someone else
+* User is liked by someone else
+
+Some actions have a negative impact, for example:
+* User is disliked by someone else
+* User is reported by someone else
 
 ## Run project
 
