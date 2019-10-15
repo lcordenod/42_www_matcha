@@ -55,7 +55,7 @@ User input has been secured on front and back end with immediate feedback for fr
 
 Password will be hashed (sha512) with a salt for 5 iterations first before being saved in the DB.
 
-![User creation screen with input](https://user-images.githubusercontent.com/45239771/66834232-8e4e3d80-ef5d-11e9-92d6-33197c7da57e.png)
+![User creation screen with input](https://user-images.githubusercontent.com/45239771/66834447-e6853f80-ef5d-11e9-8bed-7e9f1ce148e9.png)
 <p align=center><i>User creation screen with input</i></p>
 
 ## Run project
