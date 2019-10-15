@@ -128,6 +128,16 @@ User is able to see the profiles he visited, liked and blocked in order to easil
 ![Profiles management](https://user-images.githubusercontent.com/45239771/66847515-cb252f00-ef73-11e9-8ba7-6e5d5b64b159.png)
 <p align=center><i>Profiles management</i></p>
 
+## Profiles discovery
+
+Once the user has completed his profile, he will have access to the profiles discovery feature.
+
+![Profiles discovery](https://user-images.githubusercontent.com/45239771/66847856-5ef6fb00-ef74-11e9-8838-ad62ea2995e1.png)
+<p align=center><i>Profiles discovery</i></p>
+
+### Matching algorithm
+
+
 ## Run project
 
 ### Environment setup
