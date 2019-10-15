@@ -53,7 +53,7 @@ User input has been secured on front and back end with immediate feedback for fr
 * A number
 * A minimum of 8 characters
 
-Password will be hashed (sha512) first with a salt before being saved in the DB.
+Password will be hashed (sha512) with a salt for 5 iterations first before being saved in the DB.
 
 ## Run project
 
