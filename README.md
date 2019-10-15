@@ -24,7 +24,7 @@ Team of 2: Raphaël ([GitHub](https://github.com/M4sterCiel)) and I.
 My Matcha project handles:
 * DB creation script
 * User creation and authentication using token
-* Camera and pictures upload
+* Pictures upload and default profile picture
 * Complete user profile page with gender, bio, location, interests details...
 * User profile edition (password, details, preferences)
 * Profiles discovery based on matching algorithm and user preferences
@@ -91,20 +91,35 @@ As said above, he will be invited to complete his profile from the discovery vie
 
 #### Pictures upload
 
-User is able to upload up to 5 pictures, he needs at least one to be able to match with someone.
+User is able to upload up to 5 pictures, he needs at least one to be able to match with someone. The upload is protected against wrong input checking the picture object size and format as well as file size to avoid having wrong images.
 
-![User information edition](https://user-images.githubusercontent.com/45239771/66844775-2dc7fc00-ef6f-11e9-9b1f-60e732028d6a.png)
-<p align=center><i>User information edition</i></p>
+![Pictures upload](https://user-images.githubusercontent.com/45239771/66844775-2dc7fc00-ef6f-11e9-9b1f-60e732028d6a.png)
+<p align=center><i>Pictures upload</i></p>
 
 ##### Profile picture
 
-User will necessarily have a profile picture when uploading pictures, the first picture uploaded will become the default profile one. He will also be able to edit it by clicking on the make default picture above the picture he wants to.
+User will necessarily have a profile picture when uploading pictures, the first picture uploaded will become the default profile one. He will also be able to edit it by clicking on the make default profile picture button above the picture he wants to.
 
+##### Picture delete
 
-Or even delete his account (with a confirmation using his password) and manage his notifications (new comments on his pictures for example).
+User is able to delete a picture, if he deletes the picture set as default profile picture, it will make the closest picture the default profile one.
 
-![User account](https://user-images.githubusercontent.com/45239771/62535287-4cad6200-b84b-11e9-8b50-f8c8691b5c0d.png)
-<p align=center><i>User account</i></p>
+### User acccount settings
+
+![Account settings](https://user-images.githubusercontent.com/45239771/66845474-58ff1b00-ef70-11e9-96d7-b5d9a84f931c.png)
+<p align=center><i>Account settings</i></p>
+
+#### Preferences
+
+User is able to set his default discovery settings so that the matching algorithm will improve the accuracy of the profiles suggested.
+
+#### Edit email and password
+
+User is able to modify his email and password from the account settings modal, password will be hashed.
+
+#### Delete account
+
+User is able to delete his account as well, this will remove him from database and other users no longer will be available to match with him/her.
 
 ## Run project
 
