@@ -7,6 +7,8 @@ Objective of this project is to create a complete dating website that allows use
 
 Team of 2: Raphaël ([GitHub](https://github.com/M4sterCiel)) and I.
 
+See Trello board [here](https://trello.com/b/vxxZB9oL/42-matcha)
+
 ### Stack
 
 * Node JS (Express)
