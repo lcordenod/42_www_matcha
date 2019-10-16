@@ -189,6 +189,8 @@ Because users interact with each other, they need to be informed that someone el
 
 If user sees a notification, it will be cleared in the menu as well so that users are always up-to-date.
 
+![Notifications menu opened](https://user-images.githubusercontent.com/45239771/66917710-31668c00-f01e-11e9-926d-e40ba982db20.png)<p align=center><i>Notifications menu opened</i></p>
+
 #### Like/Dislike and Match
 
 User can like other profiles to show him/her some interest, if both users like each other, it will create a match!
@@ -204,6 +206,21 @@ Once user match, they can talk to each other through a dedicated chat where they
 Messages are sent in real-time using websockets (socket.io) so that users receive messages once they are sent which simplifies conversations.
 
 ![User chat](https://user-images.githubusercontent.com/45239771/66915583-a2f00b80-f019-11e9-8f06-2ae70ce765a2.png)<p align=center><i>User chat</i></p>
+
+#### Report and block profiles
+
+Last but not least, user can block and report other profiles. If a user is reported, he will be added to a list of reported users in the DB. A user can report someone else only one time to avoid report spamming.
+
+Also a user can block/unblock another profile, if a profile has been blocked by a user, this profile won't be able to interact anymore with the user blocking him.
+
+## Responsive design
+
+The platform has been completely designed with Responsive Design in mind with multiple breakpoints to accommodate most common screen sizes (from iPhone 6 range to desktop/tablet resolutions):
+* From 360px to 1000px
+
+![Responsive examples 1](https://user-images.githubusercontent.com/45239771/66919150-121d2e00-f021-11e9-895b-fa9bab36c0de.jpg)<p align=center><i>Responsive examples 1</i></p>
+
+![Responsive examples 2](https://user-images.githubusercontent.com/45239771/66919151-121d2e00-f021-11e9-8b1f-1a958555fd23.jpg)<p align=center><i>Responsive examples 2</i></p>
 
 ## Run project
 
