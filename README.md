@@ -179,6 +179,24 @@ Some actions have a negative impact, for example:
 * User is disliked by someone else
 * User is reported by someone else
 
+### Actions
+
+#### Like/Dislike and Match
+
+User can like other profiles to show him/her some interest, if both users like each other, it will create a match!
+
+![Profiles match](https://user-images.githubusercontent.com/45239771/66915355-1d6c5b80-f019-11e9-9bb5-15b373259029.png)<p align=center><i>Profiles match</i></p>
+
+User can also dislike someone if the love is gone.
+
+#### Chat
+
+Once user match, they can talk to each other through a dedicated chat where they can retrieve all their matches and conversations.
+
+Messages are sent in real-time using websockets (socket.io) so that users receive messages once they are sent which simplifies conversations.
+
+![User chat](https://user-images.githubusercontent.com/45239771/66915583-a2f00b80-f019-11e9-8f06-2ae70ce765a2.png)<p align=center><i>User chat</i></p>
+
 ## Run project
 
 ### Environment setup
