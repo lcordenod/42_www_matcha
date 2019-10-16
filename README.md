@@ -1,6 +1,33 @@
 # 42_www_matcha
 Creating a dating site using React, Node JS and MySQL
 
+## Summary
+
+- [Intro](#intro)
+  - [Stack](#stack)
+  - [Features](#features)
+- [User account](#user-account)
+  - [User creation and authentication](#user-creation-and-authentication)
+  - [Forgot and change of password](#forgot-and-change-of-password)
+  - [User profile](#user-profile)
+    - [Complete profile](#complete-profile)
+    - [User profile](#user-profile)
+- [Creating montages](#creating-montages)
+  - [Camera upload](#camera-upload)
+  - [Picture upload](#picture-upload)
+  - [Montage](#montage)
+- [User interactions](#user-interactions)
+  - [Home/Feed](#homefeed)
+  - [Interactions](#interactions)
+- [Responsive design](#responsive-design)
+- [Configuration and additionnal security](#configuration-and-additionnal-security)
+  - [Database](#database)
+  - [Security](#security)
+- [Run project](#run-project)
+  - [Environment setup](#environment-setup)
+  - [Create DB](#create-db)
+  - [Start servers and website](#start-servers-and-website)
+
 ## Intro
 
 Objective of this project is to create a complete dating website that allows users to search, discover profiles according to their preferences and geolocation, show them some love with real-time likes, notifications and chat if both profiles match.
@@ -223,6 +250,27 @@ The platform has been completely designed with Responsive Design in mind with mu
 ![Responsive examples 1](https://user-images.githubusercontent.com/45239771/66919150-121d2e00-f021-11e9-895b-fa9bab36c0de.jpg)<p align=center><i>Responsive examples 1</i></p>
 
 ![Responsive examples 2](https://user-images.githubusercontent.com/45239771/66919151-121d2e00-f021-11e9-8b1f-1a958555fd23.jpg)<p align=center><i>Responsive examples 2</i></p>
+
+## Configuration and additionnal security
+
+### Database
+
+Database is running on MySQL and we use PHPMyAdmin Web Interface to manage it. To get a set of users, we used RandomUsers API to generate a seed of around 800 users.
+
+Here is a snapshot of our DB structure:
+![Database structure](https://user-images.githubusercontent.com/45239771/66919683-172ead00-f022-11e9-95fb-4d5c720424c2.png)
+<p align=center><i>Database structure</i></p>
+
+### Security
+
+We added manually (no frameworks or ODM/ORM) checks in the front end and back end to protect the application from multiple attacks.
+
+Application is protected against:
+* HTML/Javascript injections -> using input checks and transforming input into strings
+* Malware upload -> using upload checks
+* Password breaches -> using sha512 and salt hashing
+* Cross-site request forgery -> using unique IDs with expiration (password reset, email validation)
+* Cross-site resource sharing -> using authentication validation and tokens (logged out users limited)
 
 ## Run project
 
