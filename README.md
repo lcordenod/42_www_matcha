@@ -181,6 +181,14 @@ Some actions have a negative impact, for example:
 
 ### Actions
 
+#### Real-time notifications
+
+Because users interact with each other, they need to be informed that someone else acted on him, so when someone views your profile, likes it or send you a message (if you previously matched), you will be informed directly with a badge count (depending on how many you received) on top of your menu. We used Websockets (socket.io) to make them real-time, also user won't have to refresh page to see new notifications, they will be automatically added.
+
+![Notifications](https://user-images.githubusercontent.com/45239771/66917528-d16fe580-f01d-11e9-98ef-921d499b4ddb.png)<p align=center><i>Notifications</i></p>
+
+If user sees a notification, it will be cleared in the menu as well so that users are always up-to-date.
+
 #### Like/Dislike and Match
 
 User can like other profiles to show him/her some interest, if both users like each other, it will create a match!
@@ -189,7 +197,7 @@ User can like other profiles to show him/her some interest, if both users like e
 
 User can also dislike someone if the love is gone.
 
-#### Chat
+#### Real-time Chat
 
 Once user match, they can talk to each other through a dedicated chat where they can retrieve all their matches and conversations.
 
