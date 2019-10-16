@@ -271,7 +271,7 @@ The platform has been completely designed with Responsive Design in mind with mu
 Database is running on MySQL and we use PHPMyAdmin Web Interface to manage it. To get a set of users, we used RandomUsers API to generate a seed of around 800 users.
 
 ![Database structure](https://user-images.githubusercontent.com/45239771/66919683-172ead00-f022-11e9-95fb-4d5c720424c2.png)
-<p align=center><i>Database structure</i></p>
+<p><i>Database structure</i></p>
 
 ### Security
 
