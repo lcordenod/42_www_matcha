@@ -38,7 +38,7 @@ Creating a dating site using React, Node JS and MySQL
 - [Run project](#run-project)
   - [Environment setup](#environment-setup)
   - [Create DB](#create-db)
-  - [Install packages/dependencies](#install-packages/dependencies)
+  - [Install packages and dependencies](#install-packages-and-dependencies)
   - [Start servers and website](#start-servers-and-website)
 
 ## Intro
