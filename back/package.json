@@ -20,7 +20,7 @@
     "express-router": "0.0.1",
     "guid": "0.0.12",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mustache": "^2.2.1",
     "mysql": "^2.17.1",
     "node-fetch": "^2.6.0",
