@@ -31,7 +31,7 @@
     "querystring": "^0.2.0",
     "random-int": "^2.0.0",
     "request": "^2.69.0",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "unique-random-array": "^2.0.0",
     "unsplash-js": "^5.0.0"
   },
